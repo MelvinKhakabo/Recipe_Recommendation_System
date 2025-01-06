@@ -63,3 +63,14 @@ Enter the recipe name to view: Pancakes
 Pancakes Recipe:
 Ingredients: flour, eggs, milk, sugar
 Steps: Mix ingredients and fry in a pan.
+
+
+#### Possible Enhancements:(YET TO IMPLEMENT)
+##### Nutritional Information
+Display calorie count and other nutritional data for each recipe.
+##### Custom Preferences
+Allow filtering by cuisine type, dietary restrictions, or difficulty level.
+##### Random Recipe Feature
+Suggest a random recipe if the user is unsure what to cook.
+##### Integration with an API
+Use a recipe API (e.g., Spoonacular) to fetch more recipes dynamically.
