@@ -17,4 +17,49 @@ Allow users to add new recipes to the database.
 ### Save Favorite Recipes
 Enable users to save their favorite recipes for easy access later.
 
+# How it works
+How It Works:
+## Recipe Storage
+Recipes are stored in a JSON file (recipes.json) with their ingredients and steps.
+## Adding Recipes
+The user can input a new recipe by providing the name, ingredients, and cooking steps.
+## Finding Recipes
+The user enters the ingredients they have.
+The program finds recipes that use these ingredients and displays the missing ingredients, if any.
+## Viewing Recipes
+The user can view the details (ingredients and steps) of a specific recipe by its name.
 
+
+# Example Interaction
+Recipe Recommendation System
+1. Add Recipe
+2. Find Recipes
+3. View Recipe Details
+4. Exit
+Choose an option: 1
+Enter the recipe name: Pancakes
+Enter the ingredients (comma-separated): flour, eggs, milk, sugar
+Enter the cooking steps: Mix ingredients and fry in a pan.
+Recipe 'pancakes' added successfully!
+
+Recipe Recommendation System
+1. Add Recipe
+2. Find Recipes
+3. View Recipe Details
+4. Exit
+Choose an option: 2
+Enter the ingredients you have (comma-separated): flour, eggs, milk
+Recipe Recommendations:
+- Pancakes (Missing Ingredients: sugar)
+
+Recipe Recommendation System
+1. Add Recipe
+2. Find Recipes
+3. View Recipe Details
+4. Exit
+Choose an option: 3
+Enter the recipe name to view: Pancakes
+
+Pancakes Recipe:
+Ingredients: flour, eggs, milk, sugar
+Steps: Mix ingredients and fry in a pan.
